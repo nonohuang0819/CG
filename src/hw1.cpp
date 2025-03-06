@@ -89,6 +89,7 @@ vec3 color(const ray& r, const vector<Light>& lights, const vector<Sphere>& sphe
 int main() {
     int width = 800;
     int height = 800;
+    int samples_per_pixel = 4; // Number of samples per pixel for anti-aliasing
 
     fstream file;
     file.open("/home/nonohuang/CG/src/ray.ppm", ios::out);
@@ -122,10 +123,14 @@ int main() {
 
     for (int j = height - 1; j >= 0; j--) {
         for (int i = 0; i < width; i++) {
-            float u = float(i) / float(width);
-            float v = float(j) / float(height);
-            ray r(origin, lower_left_corner + (u * horizontal) + (v * vertical) - origin);
-            vec3 col = color(r, lights, spheres, triangles, cubes, planes);
+            vec3 col(0, 0, 0);
+            for (int s = 0; s < samples_per_pixel; s++) {
+                float u = float(i + drand48()) / float(width);
+                float v = float(j + drand48()) / float(height);
+                ray r(origin, lower_left_corner + (u * horizontal) + (v * vertical) - origin);
+                col += color(r, lights, spheres, triangles, cubes, planes);
+            }
+            col /= float(samples_per_pixel);
             file << int(255.99 * col.x()) << " "
                  << int(255.99 * col.y()) << " "
                  << int(255.99 * col.z()) << "\n";
