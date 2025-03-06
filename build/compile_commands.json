@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/nonohuang/CG/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/my_CG_project.dir/src/hw1.cpp.o -c /home/nonohuang/CG/src/hw1.cpp",
-  "file": "/home/nonohuang/CG/src/hw1.cpp"
+  "command": "/usr/bin/g++ -g -o CMakeFiles/my_CG_project.dir/src/bonus.cpp.o -c /home/nonohuang/CG/src/bonus.cpp",
+  "file": "/home/nonohuang/CG/src/bonus.cpp"
 },
 {
   "directory": "/home/nonohuang/CG/build",

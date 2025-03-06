@@ -5,7 +5,7 @@ cmake_policy(SET CMP0072 NEW)
 find_package(OpenGL REQUIRED)
 
 add_executable(my_CG_project 
-    src/hw1.cpp
+    src/bonus.cpp
     src/glad.h
     src/glad.c
     src/vec3.h

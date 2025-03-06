@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/nonohuang/CG/build/
 
 build cmake_object_order_depends_target_my_CG_project: phony || CMakeFiles/my_CG_project.dir
 
-build CMakeFiles/my_CG_project.dir/src/hw1.cpp.o: CXX_COMPILER__my_CG_project_Debug /home/nonohuang/CG/src/hw1.cpp || cmake_object_order_depends_target_my_CG_project
-  DEP_FILE = CMakeFiles/my_CG_project.dir/src/hw1.cpp.o.d
+build CMakeFiles/my_CG_project.dir/src/bonus.cpp.o: CXX_COMPILER__my_CG_project_Debug /home/nonohuang/CG/src/bonus.cpp || cmake_object_order_depends_target_my_CG_project
+  DEP_FILE = CMakeFiles/my_CG_project.dir/src/bonus.cpp.o.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/my_CG_project.dir
   OBJECT_FILE_DIR = CMakeFiles/my_CG_project.dir/src
@@ -69,7 +69,7 @@ build CMakeFiles/my_CG_project.dir/src/glad.c.o: C_COMPILER__my_CG_project_Debug
 #############################################
 # Link the executable my_CG_project
 
-build my_CG_project: CXX_EXECUTABLE_LINKER__my_CG_project_Debug CMakeFiles/my_CG_project.dir/src/hw1.cpp.o CMakeFiles/my_CG_project.dir/src/glad.c.o | /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so
+build my_CG_project: CXX_EXECUTABLE_LINKER__my_CG_project_Debug CMakeFiles/my_CG_project.dir/src/bonus.cpp.o CMakeFiles/my_CG_project.dir/src/glad.c.o | /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lglfw  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so
