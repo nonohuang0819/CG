@@ -1,0 +1,17 @@
+# ninja log v5
+1	393	1737993357889700341	CMakeFiles/my_CG_project.dir/test.cpp.o	8d6709c766f6a991
+2	482	1737993581123364141	CMakeFiles/my_CG_project.dir/glad/glad.c.o	2d2e36898a2b3f95
+1	418	1739899058131972873	CMakeFiles/my_CG_project.dir/src/test.cpp.o	5aa66711c005eae2
+1097	1438	1741170856143057275	my_CG_project	148eafb7abfa6d51
+1	6778	1737993895392216647	_deps/glad-build/include/glad/glad.h	b54277e6e86e4b01
+1	6778	1737993895392216647	_deps/glad-build/src/glad.c	b54277e6e86e4b01
+3	893	1737994436451696065	CMakeFiles/my_CG_project.dir/src/glad/glad.c.o	5ab4c31f137ebad2
+1	6778	1737993895392216647	/home/nonohuang/CG/build/_deps/glad-build/include/glad/glad.h	b54277e6e86e4b01
+1	6778	1737993895392216647	/home/nonohuang/CG/build/_deps/glad-build/src/glad.c	b54277e6e86e4b01
+6779	7053	1737993895761280780	_deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o	8e3272b1bb5fd010
+1	1097	1741170855804432323	CMakeFiles/my_CG_project.dir/src/hw1.cpp.o	df54844973817b6a
+1	577	1740839648701205877	CMakeFiles/my_CG_project.dir/src/glad.c.o	e49b31ee8652df17
+1	2415	1741270825329950221	CMakeFiles/my_CG_project.dir/src/hw1.cpp.o	df54844973817b6a
+2415	2989	1741270825904116921	my_CG_project	148eafb7abfa6d51
+0	9177	1741271071151777078	CMakeFiles/my_CG_project.dir/src/hw1.cpp.o	df54844973817b6a
+9177	9642	1741271071617610439	my_CG_project	148eafb7abfa6d51

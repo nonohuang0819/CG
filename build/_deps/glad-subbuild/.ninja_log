@@ -1,0 +1,21 @@
+# ninja log v5
+0	98	1737993870874793424	glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir	9b9cf85df2af78c
+0	98	1737993870874793424	/home/nonohuang/CG/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-mkdir	9b9cf85df2af78c
+98	10224	1737993880997020070	glad-populate-prefix/src/glad-populate-stamp/glad-populate-download	8de0ec7055711145
+98	10224	1737993880997020070	/home/nonohuang/CG/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-download	8de0ec7055711145
+10224	10253	0	glad-populate-prefix/src/glad-populate-stamp/glad-populate-update	4e2a4817663f6d8e
+10224	10253	0	/home/nonohuang/CG/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-update	4e2a4817663f6d8e
+10253	10288	1737993881061819712	glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch	3e524782e02c3519
+10253	10288	1737993881061819712	/home/nonohuang/CG/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-patch	3e524782e02c3519
+10289	10313	1737993881083419593	glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure	bc8068163c9e37e5
+10289	10313	1737993881083419593	/home/nonohuang/CG/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-configure	bc8068163c9e37e5
+10313	10346	1737993881126619355	glad-populate-prefix/src/glad-populate-stamp/glad-populate-build	b3bb03eee9e68aae
+10313	10346	1737993881126619355	/home/nonohuang/CG/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-build	b3bb03eee9e68aae
+10346	10370	1737993881137419295	glad-populate-prefix/src/glad-populate-stamp/glad-populate-install	a20366d406b7a33f
+10346	10370	1737993881137419295	/home/nonohuang/CG/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-install	a20366d406b7a33f
+10371	10396	1737993881169819116	glad-populate-prefix/src/glad-populate-stamp/glad-populate-test	20e2760c21fa10a2
+10371	10396	1737993881169819116	/home/nonohuang/CG/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-test	20e2760c21fa10a2
+10396	10436	1737993881213018878	CMakeFiles/glad-populate-complete	301cc4f9de453302
+10396	10436	1737993881213018878	glad-populate-prefix/src/glad-populate-stamp/glad-populate-done	301cc4f9de453302
+10396	10436	1737993881213018878	/home/nonohuang/CG/build/_deps/glad-subbuild/CMakeFiles/glad-populate-complete	301cc4f9de453302
+10396	10436	1737993881213018878	/home/nonohuang/CG/build/_deps/glad-subbuild/glad-populate-prefix/src/glad-populate-stamp/glad-populate-done	301cc4f9de453302

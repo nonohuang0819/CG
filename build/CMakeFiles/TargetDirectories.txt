@@ -1,0 +1,3 @@
+/home/nonohuang/CG/build/CMakeFiles/my_CG_project.dir
+/home/nonohuang/CG/build/CMakeFiles/edit_cache.dir
+/home/nonohuang/CG/build/CMakeFiles/rebuild_cache.dir
